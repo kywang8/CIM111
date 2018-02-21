@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Poppins|Quicksand');
+
+      body{
+        font-family: 'Quicksand', sans-serif;
+        background-color: purple;
+      }
+
+      header{
+        background-color: white;
+        width: 960px;
+        margin: 0 auto;
+        line-height: 50px;
+      }
+
+      header a{
+
+      }
+
+      header a:hover{
+        text-decoration: none;
+      }
+
+      main{
+        background-color: white;
+        width: 940px;
+        margin: 0 auto;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      footer{
+        background-color: white;
+        width: 960px;
+        margin: 0 auto;
+      }
+
+
+      h1{
+          color: purple;
+          font-family: 'Arvo', serif;
+        }
+
+      h3 {
+          font-family: 'Poppins', sans-serif;
+      }
+
+
+
+      nav{
+
+      }
+
+      nav ul{
+
+      }
+
+      nav ul li{
+        list-style: none;
+        display: inline-block;
+      }
+
+      nav ul li a{
+        text-decoration: none;
+        color: pink;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover{
+        background-color:purple;
+      }
+
+      a{
+        text-decoration: none;
+        color: purple;
+      }
+
+      a:hover{
+        color:white;
+        text-decoration: underline;
+      }
+
+      p{
+        line-height: 50px;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+
+      #centerText{
+        text-align: center;
+        color: purple;
+      }
+
+      section{
+        margin-bottom: 100px;
+      }
+
+      .work{
+        margin-bottom: 50px;
+        display: inline-block;
+        padding: 10px;
+        background-color: pink;
+      }
+
+
+      .h5edits{
+        text-decoration: underline;
+        font-weight: lighter;
+      }
+
+      .pinkOut{
+        color: #FF00FF;
+      }
+
+      .backgroundPink{
+        background-color: pink;
+        padding: 10px;
+      }
+
+      #moveUp{
+        margin-top: -25px;
+      }
+
+      #fixLink{
+        color: purple;
+      }
+
+      .menuItem{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+      .skillTable,
+        .skillTable td,
+      .skillTable th {
+        border: 2px solid purple;
+      }
+
+      table {
+
+      }
+
+        table th {
+          color: #FF00FF;
+          background-color: pink;
+          font-family: sans-serif;
+          font-size: 20px;
+        }
+
+        table td{
+          color: #FF00FF;
+          background-color: pink;
+          font-family: sans-serif;
+          font-size: 20px;
+        }
+
+        ol {
+
+        }
+
+        ol li{
+
+        }
+
+        ol li h3{
+          color: purple;
+        }
