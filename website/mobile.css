@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Permanent+Marker|Rammetto+One');
+
+  header{
+    width: 100%;
+    height: 100px;
+  }
+
+  nav{
+    height: 25px;
+    width: 100%;
+  }
+
+  header h1{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  nav{
+    width: 80%;
+    height: 50px;
+    margin-top: -60px;
+    margin-left: 150px;
+  }
+
+  nav ul{
+    width: 200px;
+    margin: 0 auto;
+    font-family:'Permanent Marker', cursive;
+    display: block;
+    font-size: 20px;
+  }
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+
+  h1{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+  }
+
+  h2{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+  }
+
+  h3{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a{
+    color: white;
+    text-decoration: underline;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  body{
+    background-color: #2A8050;
+  }
+
+
+  img{
+    height: 125px;
+    width: 175px;
+  }
+
+  div{
+
+  }
+
+  div ul{
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 20px;
+    margin-top: -130px;
+    margin-left: 150px;
+    width: 300px;
+  }
+
+
+  footer{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+  }
+
+  footer ul{
+    list-style: none;
+    display: inline-block;
+    margin-top: -10px;
+  }
+
+  footer ul li{
+    margin-right: 50px;
+    margin-left: 0px;
+  }
