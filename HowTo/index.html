@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>How to Order Wings</title>
+
+    <style>
+        .tabSection {
+            width: 1200px;
+            height: auto;
+            background-color: white;
+            border: 1px solid;
+            margin: 20px;
+        }
+        .tabs {
+            width: auto;
+            height: auto;
+            float: left;
+            background-color: orange;
+            padding: 10px;
+            color: white;
+            font-family: sans-serif;
+        }
+        .captions {
+            width: 560px;
+            height: auto;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: white;
+        }
+        .clear {
+            clear: both;
+            float: none;
+        }
+
+        .box{
+          width: 100px;
+          height: 50px;
+          margin-bottom: 20px;
+        }
+
+        h1{
+          font-family: sans-serif;
+          font-size: 40px;
+        }
+
+        p{
+          font-family: sans-serif;
+          font-size: 15px;
+        }
+
+        #hover {
+            margin-top: 0px;
+            width: 60px;
+            height: 50px;
+            font-family: sans-serif;
+            font-size: 30px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+          }
+
+      #hover2{
+            margin-bottom: 0px;
+            width: 60px;
+            height: 50px;
+            font-family: sans-serif;
+            font-size: 30px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+          }
+
+          #hoverBox2{
+            margin-left: 100px;
+            margin-top: -80px;
+          }
+
+    </style>
+
+    <script src="js/javascript.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+          $("#title").html("How to Order Wings");
+          $("#title").css("color", "orange");
+            $("#caption1").hide();
+            $("#hover").hide();
+            $("#hoverBox").hide();
+            $("#hover2").hide();
+            $("#hoverBox2").hide();
+            $("#caption2").hide();
+            $("#caption3").hide();
+            $("#caption4").hide();
+            $("#caption5").hide();
+
+            $("#tab1").click(function () {
+                $("#caption1").show();
+                $("#hover").show();
+                $("#caption2").hide();
+                $("#caption3").hide();
+                $("#hover2").hide();
+                $("#caption4").hide();
+                $("#caption5").hide();
+            });
+
+            $("#hover")
+                .mouseenter(function () {
+                    $("#hoverBox").show();
+                })
+                .mouseleave(function () {
+                    $("#hoverBox").hide();
+                });
+
+            $("#tab2").click(function () {
+              $("#caption1").hide();
+              $("#caption2").show();
+              $("#hover").hide();
+              $("#caption3").hide();
+              $("#caption4").hide();
+              $("#caption5").hide();
+              $("#hover2").hide();
+              $("#hoverBox2").hide();
+            });
+             $("#tab3").click(function () {
+                $("#caption1").hide();
+                $("#caption2").hide();
+                $("#hover").hide();
+                $("#caption3").show();
+                $("#hover2").show();
+                $("#caption4").hide();
+                $("#caption5").hide();
+            });
+
+            $("#hover2")
+                .mouseenter(function () {
+                    $("#hoverBox2").show();
+                })
+                .mouseleave(function () {
+                    $("#hoverBox2").hide();
+                });
+
+            $("#tab4").click(function () {
+               $("#caption1").hide();
+               $("#caption2").hide();
+               $("#caption3").hide();
+               $("#caption4").show();
+               $("#caption5").hide();
+               $("#hover2").hide();
+               $("#hoverBox2").hide();
+           });
+           $("#tab5").click(function () {
+              $("#caption1").hide();
+              $("#caption2").hide();
+              $("#caption3").hide();
+              $("#caption4").hide();
+              $("#caption5").show();
+              $("#hover2").hide();
+              $("#hoverBox2").hide();
+          });
+
+        });
+    </script>
+</head>
+
+<body>
+
+  <h1 id="title"> </h1>
+    <div class="tabSection" id="tabsCaption1">
+        <div class="tabs" id="tab1">Step 1</div>
+        <div class="tabs" id="tab2">Step 2</div>
+        <div class="tabs" id="tab3">Step 3</div>
+        <div class="tabs" id="tab4">Step 4</div>
+        <div class="tabs" id="tab5">Step 5</div>
+
+        <div class="clear"></div>
+
+        <div class="captionSection" id="captionSection1">
+
+            <div class="captions" id="caption1"><p>Step 1: Choose What Kind of Wings You Want</p> <img src="Images/step 1.png" width=700px> </div>
+            <div id="hover">TIP!</div>
+            <div id="hoverBox" class="box">
+              <p> Tradional wings have the bone inside. </p>
+            </div>
+            <div class="captions" id="caption2"><p>Step 2: Pick A Size</p> <img src="Images/step 2.png" width=700px> </div>
+            <div class="captions" id="caption3"><p>Step 3: Pick Your Sauces and Seasonings</p> <img src="Images/step 3.png" width=700px> </div>
+            <div id="hover2">TIP!</div>
+            <div id="hoverBox2" class="box">
+              <p> Be aware of how much spiciness you can handle. </p>
+            </div>
+            <div class="captions" id="caption4"><p>Step 4: Choose Your Sides</p> <img src="Images/step 4.png" width=700px> </div>
+            <div class="captions" id="caption5"><p>Step 5: Add Any Special Requests or Instructions</p> <img src="Images/step 5.png" width=700px> </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
