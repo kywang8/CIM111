@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Itim|PT+Sans|Parisienne');
+
+body{
+  background-color: black;
+}
+
+header{
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: 75px;
+  margin-left: 45%;
+}
+
+p{
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ol{
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+ol li{
+
+}
+
+a{
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin-left: 23%;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides li img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
