@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Poiret+One|Questrial|Shrikhand|Ubuntu');
+
+    body{
+      background-color: white;
+    }
+
+    h1{
+      font-family: 'Poiret One', cursive;
+      color: gray;
+      font-size: 100px;
+      text-align: center;
+    }
+
+    h2{
+      font-family: 'Poiret One', cursive;
+      color: gray;
+      font-size: 75px;
+      text-align: center;
+    }
+
+    h3{
+      color: gray;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    h5{
+      color: gray;
+    }
+
+    nav{
+      font-size: 30px;
+      background-color: gray;
+    }
+
+    nav ul{
+      display: inline-flex;
+      list-style: none;
+    }
+
+    nav ul li{
+      font-family: 'Poiret One', cursive;
+      padding-left: 150px;
+    }
+
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    nav ul li a:hover{
+      text-decoration: underline;
+    }
+
+    address{
+      color: gray;
+    }
+
+    ul{
+      font-family: 'Ubuntu', sans-serif;
+      list-style: none;
+      padding-left: 10px;
+    }
+
+    ul li{
+      color: gray;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    .Container{
+      text-align: center;
+    }
+
+    #AddPad{
+      padding: 10px;
+      line-height: 30px;
+    }
+
+    #GrayOut{
+      color: gray;
+      font-family: 'Questrial', sans-serif;
+      line-height: 20px;
+    }
+
+    p{
+      font-family: 'Questrial', sans-serif;
+      color: gray;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+
+table{
+  color: gray;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  border-color: gray;
+  border-style: SOLID;
+}
+
+
+.slideshow{
+  margin-left: 400px;
+}
